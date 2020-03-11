@@ -4,7 +4,7 @@
 
 [github地址查看基础镜像](https://github.com/swoft-cloud/alphp "github地址查看基础镜像")
 
-##运行方式
+# 运行方式
 
 安装好docker与docker-compose后
 
