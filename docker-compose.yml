@@ -1,0 +1,11 @@
+version: "3.0"
+services:
+    swoole:
+        container_name: swoole
+        image: swoft/alphp:cli
+        volumes:
+            - ./www/:/var/www/
+        restart: always
+        ports:
+            - "9501:9501"
+        command: ["sh","/var/www/run.sh"]
